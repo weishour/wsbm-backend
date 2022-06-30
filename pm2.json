@@ -1,0 +1,26 @@
+{
+  "apps": {
+    "name": "weishour-server",
+    "script": "./dist/apps/wsbm/main.js",
+    "cwd": "./",
+    "args": "",
+    "interpreter": "npm",
+    "interpreter_args": "run start:prod",
+    "watch": true,
+    "ignore_watch": ["node_modules"],
+    "exec_mode": "fork",
+    "merge_logs": true,
+    "log_date_format": "YYYY-MM-DD HH:mm:ss",
+    "min_uptime": 100,
+    "max_restarts": 30,
+    "autorestart": true,
+    "cron_restart": "",
+    "restart_delay": 60,
+    "env": {
+      "NODE_ENV": "prod"
+    },
+    "env_dev": {
+      "NODE_ENV": "dev"
+    }
+  }
+}

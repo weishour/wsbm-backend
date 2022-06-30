@@ -1,0 +1,10 @@
+node_modules*
+dist
+build
+*.svg
+*.ico
+*.json
+.gitignore
+*.md
+*.log
+*.lock

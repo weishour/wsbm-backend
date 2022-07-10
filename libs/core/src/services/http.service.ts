@@ -1,4 +1,5 @@
-import { Injectable, HttpModuleOptionsFactory, HttpModuleOptions } from '@nestjs/common';
+import { Injectable } from '@nestjs/common';
+import { HttpModuleOptionsFactory, HttpModuleOptions } from '@nestjs/axios';
 import { WsConfigService } from '@weishour/core/services';
 
 @Injectable()
